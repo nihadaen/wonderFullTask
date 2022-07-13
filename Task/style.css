@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+}
+
+.mainPage {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("back.jpeg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: soft-light;
+}
+
+.topPart {
+    width: 100vw;
+    height: 3vh;
+}
+
+hr {
+    border: 0;
+    height: 0.1px;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.topPart span {
+    display: inline-block;
+    padding-left: 10vw;
+    padding-top: 0.5vh;
+    color: white;
+}
+
+.topPart .social-medias li {
+    display: inline-block;
+    padding: 0.5vh 1vw;
+}
+
+.social-medias {
+    float: right;
+}
+
+.topPart .social-medias ul {
+    margin-right: 20vw;
+}
+
+.topPart a {
+    color: white;
+}
+
+.logo h1 {
+    color: white;
+    float: left;
+    padding-left: 10vw;
+    font-size: 4em;
+}
+
+.mainPartHeader .menu li {
+    display: inline-block;
+    padding: 2vh 0.5vw;
+}
+
+.mainPartHeader .menu {
+    float: right;
+    padding: 1vh 20vw 0 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.left {
+    width: 30vw;
+    height: 20vh;
+    margin-left: 10vw;
+    position: absolute;
+    margin-top: 25vh;
+    color: white;
+}
+
+.left h1 {
+    font-size: 7em;
+}
+
+.left h2 {
+    font-size: 3em;
+}
+
+.right .box {
+    margin-top: 25vh;
+    margin-right: 20vw;
+    float: right;
+    width: 25vw;
+    height: 40vh;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.welcomePage {
+    width: 100vw;
+    height: 60vh;
+    background-color: white;
+    overflow: hidden;
+}
+
+.welcome {
+    height: 10vh;
+    text-align: center;
+    font-size: 3.5em;
+    padding-bottom: 3vh;
+    padding-top: 5vh;
+}
+
+.paragraph {
+    width: 60vw;
+    height: 10vh;
+    text-align: center;
+    padding-top: 5vh;
+    margin: 0 auto;
+    color: gray;
+    font-size: 1.2em;
+}
+
+.welcomePage hr {
+    border: 0;
+    height: 0.01vh;
+    width: 60vw;
+    margin: 0 auto;
+    background-color: gray;
+    opacity: 0.5;
+}
+
+.features {
+    width: 65vw;
+    height: 50vh;
+    margin: 0 auto;
+}
+
+.column {
+    width: 15vw;
+    height: 50vh;
+    display: inline-block;
+    margin-top: 8vh;
+    font-size: 1.2em;
+    padding-right: 1vw;
+}
+
+.column b {
+    display: inline-block;
+    padding: 1vh 0;
+}
+
+.column span {
+    font-size: 1.5em;
+}
+
+.column p {
+    color: gray;
+}
+
+.elements {
+    width: 61vw;
+    height: 70vh;
+
+    margin: 0 auto;
+}
+
+.elementsFirstRow {
+    display: inline-block;
+    width: 15vw;
+    height: 35vh;
+}
+
+.elementsSecondRow {
+    display: inline-block;
+    width: 15vw;
+    height: 35vh;
+}
+
+.img img {
+    width: 15vw;
+    position: absolute;
+    padding-top: 2vh;
+}
+
+.elementsFirstRow p {
+    position: absolute;
+    padding-top: 20vh;
+    width: 15vw;
+    font-size: 1.1em;
+    color: gray;
+}
+
+.bottomPrice {
+    position: absolute;
+    padding-top: 30vh;
+}
+
+.bottomPrice span {
+    display: block;
+    padding-top: 1vh;
+    float: left;
+    margin-left: 1vw;
+    font-size: 1.3em;
+}
+
+.bottomPrice button {
+    margin-left: 5vw;
+    padding: 1vh 1vw;
+    border: none;
+    color: white;
+    background-color: #0242d6;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.bottomPrice button:hover {
+    background-color: #032880;
+}
+
+.hr {
+    border: 0;
+    height: 0.01vh;
+    width: 60vw;
+    background-color: gray;
+    opacity: 0.5;
+    margin: 0 auto;
+}
+
+.eventsApps {
+    width: 70vw;
+    height: 60vh;
+    padding-top: 10vh;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.events {
+    padding-left: 5vw;
+    width: 25vw;
+    height: 60vh;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.appointment {
+    width: 30vw;
+    height: 60vh;
+    float: right;
+    padding-left: 10vw;
+}
+
+.days-exact {
+    display: inline-block;
+    margin-right: 2vw;
+    margin-top: 1vh;
+}
+
+.eventsApps h2 {
+    font-size: 3.5em;
+    color: black;
+    padding-bottom: 1vh;
+}
+
+.eventsApps span {
+    color: gray;
+}
+
+.eventsApps label {
+    color: gray;
+    margin-bottom: 1vh;
+}
+
+.smallTxt {
+    display: block;
+    margin-bottom: 1.5vh;
+}
+
+.form-control {
+    display: inline-block;
+    width: 15vw;
+    height: 2vh;
+    padding-right: 3vw;
+    padding-bottom: 0.5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    padding-top: 0.5vh;
+}
+
+.msg {
+    margin-top: 1vh;
+    height: 12vh;
+    width: 18vw;
+    margin-bottom: 2vh;
+}
+
+.btn{
+    margin-left: 5vw;
+    padding: 1vh 1vw;
+    border: none;
+    color: white;
+    background-color: #0242d6;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    border-radius: 10%;
+}
+
+.widget-contact-form button:hover {
+    background-color: #032880;
+}
+
+.widget-contact-form {
+    width: 20vw;
+}
+
+.tab-content h5{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    font-size: 1.1em;
+}
+
+.p-10 span{
+    display: block;
+    padding-top: 1vh;
+}
+.m-b-0{
+    padding-bottom: 1vh;
+}
+.days{
+    padding-bottom: 2vh;
+}
+.map{
+    width: 100vw;
+    height: 40vh;
+}
+
+.map iframe{
+    width: 100vw;
+    height: 40vh;
+}
+
+.topFooter{
+    width: 100vw;
+    height: 35vh;
+    background-color: white;
+}
+
+.bottomFooter{
+    width: 100vw;
+    height: 10vh;
+    background-color: gray;
+}
+.leftFooter{
+    position: absolute;
+    width: 30vw;
+    height: 30vh;
+    margin-left: 20vw;
+    margin-top: 5vw;
+}
+.txt{
+    font-size: 1.2em;
+    display: block;
+    padding-bottom: 2vh;
+}
+.lastP{
+    color: gray;
+}
+.leftFooter .btn{
+    display: block;
+    margin: 0;
+    margin-top: 2vh;
+}
+
+.leftFooter button:hover{
+    background-color: #032880;
+}
+.bottomFooter{
+    text-align: center;
+}
+
+.bottomFooter p{
+    display: block;
+    padding-top: 4vh;
+}
+.row{
+    float: right;
+    margin-right: 5vw;
+}
+.col-lg-3{
+    margin-top: 9vh;
+    display: inline-block;
+    margin-left: 10vw;
+}
+.col-lg-3 a{
+    color: gray;
+    text-decoration: none;
+    display: block;
+    padding-bottom: 1vh;
+}
+.col-lg-3 li{
+    list-style-type: none;
+}
+.widget-title{
+    padding-bottom: 1vh;
+}
+.list{
+    width: 5vw;
+}
